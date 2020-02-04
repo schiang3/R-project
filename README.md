@@ -1,6 +1,6 @@
 # R-project
 #Principal component analysis
-We applied Principal component analysis to do dimension reduction because there are strongly correlated variables in the dataset by checking corr.test, colSums(MTest) - 1 (psych package) and ggplot. 
+/We applied Principal component analysis to do dimension reduction because there are strongly correlated variables in the dataset by checking corr.test, colSums(MTest) - 1 (psych package) and ggplot. 
 PCA is a statistical procedure, and it helps us to determine the importance of variables and convert the correlated variance into new subsets which are components. 
 After checking correlation, we create PCA by prcomp. We use rotation of loading and scree plot to choose components. 
 These components become new variances, and they can conduct to Linear Discriminant Analysis and random forest to classify diagnosis. 
